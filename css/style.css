@@ -5,7 +5,7 @@
 }
 @font-face {
   font-family: Philosofer-Regular ;
-  src: url(/fonts/Philosopher-Regular.ttf)
+  src: url(/Bakery_1/fonts/Philosopher-Regular.ttf)
 
 
 }
@@ -47,7 +47,7 @@ nav {
 
 .section-image {
   position: relative;
-  background-image: url(/img/background_image.jpg);
+  background-image: url(Bakery_1/img/background_image.jpg);
   height: 640px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -153,4 +153,5 @@ iframe {
 }
 a:hover {
   color: rgba(0,0,0,0.5);
+
 }
