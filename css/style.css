@@ -9,13 +9,17 @@
 
 
 }
+html {
+  font-size: 10px;
+}
 body {
   background-color: #ffe2b0;
+  padding-top: 2rem;
 }
 
 header {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
 }
 
 ul {
@@ -25,7 +29,7 @@ ul {
 
 li {
   display: inline-block;
-  margin-right: 100px;
+  margin-right: 10rem;
 }
 
 li:last-child {
@@ -34,13 +38,13 @@ li:last-child {
 
 a {
   color: black;
-  font-size: 18px;
+  font-size: 1.8rem;
   text-decoration: none;
   text-transform: uppercase;
 }
 
 nav {
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
   font-family: Roboto, sans-serif
 
 }
@@ -52,50 +56,61 @@ nav {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
 }
-
 .section-image__block {
   position: absolute;
   top: 54%;
   left: 50%;
-  height: 190px;
-  width: 420px;
+  height: 19rem;
+  width: 42rem;
   background: linear-gradient(
     180deg,
     rgba(244, 213, 178, 0.8) 0%,
     rgba(234, 156, 65, 0.8) 100%
   );
-  padding-top: 15px;
+  padding-top: 1.5rem;
+  transition: .3s all;
+}
+.section-image__block:hover {
+transform: translateY(-1rem);
+
 }
 
 .section-image__border {
-  border: 1px solid black;
-  height: 160px;
-  width: 390px;
+  border: 0.1rem solid black;
+  height: 16rem;
+  width: 39rem;
   margin: 0 auto;
-  padding: 17px 0 0 28px;
+  padding: 1.7rem 0 0 2.8rem;
+ 
+}
+.icon:hover {
+transform: scale(105%);
+filter: drop-shadow(0.5rem 0.3rem 0.5rem rgba(0,0,0,0.5));
+ transition: .5s all;
 }
 
+
 .section-image__title {
-  font-size: 36px;
-  margin-bottom: 9px;
+  font-size: 3.6rem;
+  margin-bottom: 0.9rem;
   font-family: Philosofer-Regular;
   font-weight: 400;
 }
 
 .section-image__text {
-  font-size: 12px;
+  font-size: 1.2rem;
   font-family: Roboto-Regular;
 }
 
 .section-description__icon-box {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
 }
 
 .section-description__icon-box img {
-  margin-right: 76px;
+  margin-right: 7.6rem;
 }
 
 .section-description__icon-box img:last-child {
@@ -103,25 +118,25 @@ nav {
 }
 
 .section-description__text-box {
-  width: 1000px;
+  width: 100rem;
   text-align: center;
   margin: 0 auto;
 }
 
 .section-description__title {
-  font-size: 96px;
+  font-size: 9.6rem;
   font-family: Philosofer-Regular;
   font-weight: 400;
 }
 
 .section-desсription__text {
-  font-size: 18px;
+  font-size: 1.8rem;
   font-family: Philosofer-Regular;
   font-weight: 400;
 }
 
 .section-description {
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
 }
 
 .red {
@@ -129,30 +144,29 @@ nav {
 }
 
 .section-map {
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
   text-align: center;
 }
 
 .section-map__line {
-  border-bottom: 1px solid #999999;
-  width: 1024px;
+  border-bottom: 0.1rem solid #999999;
+  width: 102.4rem;
   margin: 0 auto;
 }
 
 .section-map__title {
-  font-size: 36px;
+  font-size: 3.6rem;
   text-transform: uppercase;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
   font-family: Philosofer-Regular;
   font-weight: 400;
 }
 
 iframe {
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
 }
 a:hover {
   color: rgba(0,0,0,0.5);
-
 }
 
