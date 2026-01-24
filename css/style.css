@@ -53,7 +53,7 @@ nav {
 .section-image {
   position: relative;
   background-image: url(../img/background_image.jpg);
-  height: 640px;
+  height: 64rem;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -184,4 +184,12 @@ a:hover {
 
 .block-adaptive__text[open] {
   padding-bottom: 2rem;
+}
+
+.block-adaptive__title::marker {
+content: "";
+}
+
+.block-adaptive__title {
+  cursor: pointer;
 }
